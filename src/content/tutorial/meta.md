@@ -1,6 +1,6 @@
 ---
 type: tutorial
-title: Basics
+title: Vur Tutorial
 mainCommand: ['npm run dev', 'Starting http server']
 prepareCommands:
   - ['npm install', 'Installing dependencies']
