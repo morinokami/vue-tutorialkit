@@ -8,7 +8,7 @@ focus: /App.vue
 
 Let's keep building on top of the todo list from the last step. Here, we've already added a toggle functionality to each todo. This is done by adding a `done` property to each todo object, and using `v-model` to bind it to a checkbox:
 
-```vue-html{2}
+```vue-html {2}
 <li v-for="todo in todos">
   <input type="checkbox" v-model="todo.done">
   ...
@@ -19,7 +19,7 @@ The next improvement we can add is to be able to hide already completed todos. W
 
 Introducing <a target="_blank" href="https://vuejs.org/guide/essentials/computed.html">`computed()`</a>. We can create a computed ref that computes its `.value` based on other reactive data sources:
 
-```js{8-11}
+```js {8-11}
 import { ref, computed } from 'vue'
 
 const hideCompleted = ref(false)

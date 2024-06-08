@@ -20,7 +20,7 @@ Due to its frequent use, `v-on` also has a shorthand syntax:
 
 Here, `increment` is referencing a function declared in `<script setup>`:
 
-```vue{6-9}
+```vue {6-9}
 <script setup>
 import { ref } from 'vue'
 
